@@ -1,22 +1,31 @@
 calss Variavel{
 	private String nome;
-	private String valor;
+	
+	public Variavel(String n, int v){
+		public int valor;
+		valor = v;
+		nome = n;
+	}
+	public Variavel(String n, boolean v){
+		public boolean valor;
+		valor = v;
+		nome = n;
+	}
+	public Variavel(String n, String v){
+		public String valor;
+		valor = v;
+		nome = n;
+	}
+	public Variavel(String n, double v){
+		public valor;
+		valor = v;
+		nome = n;
+	}
 	
 	public String getNome(){
 		return this.nome;
 	}
 	
-	public String getValor(){
-		return this.valor;
-	}
-	
-	public void setNome(String n){
-		this.nome = n;
-	}
-	
-	public void setTipo(String v){
-		this.valor = v;
-	}
-	
+
 
 }
