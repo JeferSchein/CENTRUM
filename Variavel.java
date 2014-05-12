@@ -25,7 +25,6 @@ calss Variavel{
 	public String getNome(){
 		return this.nome;
 	}
-	
 
 
 }
