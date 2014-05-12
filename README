@@ -15,10 +15,11 @@ então execute:
 
 Isso irá compilar o código. Para executá-lo, digite:
 
-> java Centrum \\ (Windows)
+Caso seja Windows:
+> java Centrum
 
-Para Linux:
-> java ./Centrum (no Linux)
+Ou então para Linux:
+> java ./Centrum
 
 Mais informações
 =======
