@@ -22,7 +22,7 @@ Ou então para Linux:
 
 Onde <script> é um arquivo com a extensão .cem contendo código CENTRUM, veja o exemplo:
 
-*> java Centrum codigos.cem*
+> java Centrum codigos.cem
 
 **Mais informações**
 =======
