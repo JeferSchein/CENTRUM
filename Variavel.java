@@ -1,4 +1,4 @@
-calss Variavel{
+class Variavel{
 	private String nome;
 	
 	public Variavel(String n, int v){
