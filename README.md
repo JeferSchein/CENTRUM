@@ -13,17 +13,18 @@ Você pode compilar o CENTRUM com qualquer IDE, porém o método mais fácil é 
 > javac Centrum.java
 
 Isso irá compilar o código. Para executá-lo, digite:
-
-> java Centrum <script>
-
+```
+java Centrum <script>
+```
 Ou então para Linux:
+```
+java ./Centrum <script>
+```
+Onde script é um arquivo com a extensão .cem contendo código CENTRUM, veja o exemplo:
 
-> java ./Centrum <script>
-
-Onde <script> é um arquivo com a extensão .cem contendo código CENTRUM, veja o exemplo:
-
-> java Centrum codigos.cem
-
+```
+java Centrum codigos.cem
+```
 **Mais informações**
 =======
 
