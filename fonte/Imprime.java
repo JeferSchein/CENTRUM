@@ -1,4 +1,4 @@
-class Imprime extend Variavel{
+class Imprime extends Variavel{
    private string impresao;
 
    public string setImp(string a){ //escrever na tela
@@ -11,7 +11,7 @@ class Imprime extend Variavel{
     }
 
     public string setIres(string a){ // escrever na tela resultado
-        this.impresao=getValor();
+        this.impresao=this.valor;
     }
 
     public string getIres(){
