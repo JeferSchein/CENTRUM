@@ -1,6 +1,6 @@
 class Fluxo{
 
-	private boolean logico;
+	public boolean logico;
 	
 	public boolean logic igual(variavel b,int a){
 		if(b.valor == a){
