@@ -1,13 +1,21 @@
-class Interpretador{
-	private String cmandos[];
-	
-	public void interpreta(String lin[]){
-		this.comandos = l;
-		
-		for(int i = 0; i < this.comandos.length; i++){
-			
-			
-		}
+public class Interpretador{
+
+	public void Interpreta(String conteudo){
+
+		//Gerar lista de tokens;
+
+		//Tokens simbolos = separador(conteudo);
+		//Sintatica declaracoes = sintatica(simbolos);
+
+
+		//Interpretar;
+		//Loop que conta até o final do args;
+
+
+		// Retornar uma string com os dados interpretados;
+
+
+
 	}
 
 }
