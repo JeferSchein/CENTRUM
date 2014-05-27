@@ -1,23 +1,20 @@
-class Imprime extends Variavel{
-   private string impresao;
+class Imprime{
+	private String impresao;
 
-   public string setImp(string a){ //escrever na tela
+	public void setImp(String a){
+		this.impresao=a;
+	}
+	
+	public String getImp(){
+		return this.impresao;
+	}
 
-        this.impresao=a;
-    }
+	public void setIres(String a){
+		this.impresao = a;
+	}
 
-   public string getImp(){
-        return this.impresao;
-    }
-
-    public string setIres(string a){ // escrever na tela resultado
-        this.impresao=this.valor;
-    }
-
-    public string getIres(){
-        return this.impresao;
-    }
-
-
+	public String getIres(){
+		return this.impresao;
+	}
 
 }

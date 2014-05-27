@@ -1,22 +1,14 @@
 class Operador extends Variavel{
 		private int condicao;
 
-		public Operador(variavel a){	
-			if(a.valor==0){
-				a.condicao=0;	
-			}
-			if(a.valor==1){
-				a.condicao=1;	
-			}
-			if(a.valor==-1){
-				a.condicao=-1;	
-			}
+		public void setOper (Variavel a){
+			condicao = Integer.parseInt(a.getValor());
 		}
-	
+
 	        public int  condGet(){
-			return a.condicao;	
+			return this.condicao;	
 		}
-	
-	
-	
+
+
+
 }

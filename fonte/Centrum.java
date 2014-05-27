@@ -7,14 +7,20 @@ public class Centrum{
 		
 		File arquivo;
 		Scanner conteudo;
+		Interpretador cen; 
+		String comandos[] = new String[5000];
 
 		try{
-
 			arquivo = new File(args[0]);
 			conteudo = new Scanner(arquivo);
+			cen = new Interpretador();
 
-			Interpretador centrum = new Interpretador();
-			centrum.interpreta = (conteudo);	
+			int i = 0;
+			while(conteudo.hasNext()){
+				comandos[i] = conteudo.nextLine();
+				i++;
+			}
+			cen.interpreta(comandos);
 		
 		}catch(Exception e){
 			
