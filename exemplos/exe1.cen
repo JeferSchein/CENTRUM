@@ -1,4 +1,7 @@
 exe1{
-var str s olamundo
+
+var s olamundo
+
 imp s
+
 }fim

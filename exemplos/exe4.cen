@@ -1,0 +1,17 @@
+exe4{
+
+var a 1
+var ma maior
+var me menor
+
+se a > 1
+imp ma
+sen
+imp me
+fimse
+
+
+
+
+
+}fim;

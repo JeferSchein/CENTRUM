@@ -1,6 +1,8 @@
 exe2{
-var int s 20
-var dou t 10
-op1 t s + t
-imp t
+
+
+var a 2
+
+imp a
+ 
 }fim

@@ -1,0 +1,13 @@
+exe3{
+
+int i 0
+
+laco i < 10
+imp i
+op2 i i + 1
+fimLaco
+
+
+
+
+}fim;
