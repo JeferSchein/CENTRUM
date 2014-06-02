@@ -1,17 +1,15 @@
 public class Interpretador{
-	private String comando[];
 
 	public void interpreta(String c[]){
 		Variavel var[] = new Variavel[50];
-		int i;
-		int ifff = 1;
-		this.comando = c;	 		
+		int i, l = 0;
+		int ifff = 1; 		
 
-		for(i = 0 ; i < this.comando.length; i++){
-			if(this.comando[i] != null && ifff != 0){
-				this.testa(comando[i], var, i);	
+		for(i = 0 ; i < c.length; i++){
+			if(c[i] != null && ifff != 0){				
+				this.testa(c[i], var, i);
 			}else{
-				if(this.comando[i] == "fimSe"){
+				if(c[i] == "fimSe"){
 					ifff = 1;
 				}
 			}
@@ -70,27 +68,8 @@ public class Interpretador{
 					return 0;
 				}
 				return 1;
-			}else if(file[0] == "para"){
-				/*Operador o = new Operador();
-				Variavel aa;
-				int bb = Integer.parseInt(file[4]);
-				for(h = 0; h < 50; h++){
-					if(String.valueOf(v[h].getNome()) == file[1]){
-						aa = v[h];
-					}
-				}
-				if(file[3] == "<"){
-					o.setOper(-1);
-				}else if(file[3] == ">"){
-					o.setOper(1);
-				}else if(file[3] == "=="){
-					o.setOper(0);
-				}
-				aa.setValor(file[2]);
-
-				*/
-			}else if(file[0] == "enq"){
-				
+			}else if(file[0] == "laco"){
+	
 			}else if(file[0] == "imp"){
 				for(h = 0; h < 50; h++){
 					if(file[1] == v[h].getNome()){
@@ -187,4 +166,3 @@ public class Interpretador{
 
 
 }
-
