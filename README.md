@@ -16,14 +16,11 @@ Isso irá compilar o código. Para executá-lo, digite:
 ```
 java Centrum <script>
 ```
-Ou então para Linux:
-```
-java ./Centrum <script>
-```
-Onde script é um arquivo com a extensão .cem contendo código CENTRUM, veja o exemplo:
+
+Onde script é um arquivo com a extensão .cen contendo código CENTRUM, veja o exemplo:
 
 ```
-java Centrum codigos.cem
+java Centrum codigos.cen
 ```
 **Mais informações**
 =======
