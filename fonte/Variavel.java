@@ -1,11 +1,6 @@
 class Variavel{
 	private String nome;
 	private String valor;
-	private String tipo;
-
-	public void setTipo(String t){
-		this.tipo = t;
-	}
 
 	public void setNome(String n){
 		this.nome = n;
@@ -21,10 +16,6 @@ class Variavel{
 	
 	public String getValor(){
 		return this.valor;
-	}
-
-	public String getTipo(){
-		return this.tipo;
 	}
 
 }
